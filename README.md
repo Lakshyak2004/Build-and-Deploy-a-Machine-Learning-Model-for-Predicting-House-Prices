@@ -71,13 +71,13 @@ The GitHub repository (or Jupyter Notebook) includes the following files:
 graphql
 Copy
 Edit
-├── data_preprocessing_updated.py     # Data loading, EDA, and feature engineering
+├── data_preprocessing.py     # Data loading, EDA, and feature engineering
 ├── model_training.py                  # Model training, evaluation, and saving using Pickle
 ├── mlflow_training.py                 # MLflow integration for model versioning
 ├── app.py                             # Flask API with enhanced logging and error handling
 ├── index.html                         # Simple frontend UI for interacting with the API
-├── Dockerfile                         # Dockerfile for containerizing the application
-├── requirements.txt                   # Required Python packages
+├── ML_Project_Dockerfile              # Dockerfile for containerizing the application
+├── ML_Project_requirements.txt        # Required Python packages
 └── README.md                          # This project report and documentation
 Each script includes detailed inline comments to explain every step of the process, ensuring clarity and maintainability.
 
